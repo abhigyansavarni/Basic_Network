@@ -1,0 +1,21 @@
+OrdererOrgs:
+  - Name: Orderer
+    Domain: example1-network.com
+    Specs:
+      - Hostname: orderer
+PeerOrgs:
+ - Name: abhi
+   Domain: abhi.example1-network.com
+   EnableNodeOUs: true
+   Template:
+      Count: 1
+   Users:
+      Count: 1
+ - Name: sava
+   Domain: sava.example1-network.com
+   EnableNodeOUs: true
+   Template:
+      Count: 1
+   Users:
+      Count: 1
+ 

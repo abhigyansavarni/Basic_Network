@@ -1,0 +1,1 @@
+{"studentId":"0002","name":"Anamika","email":"connect@anamika.com","school":"x509::/C=US/ST=California/L=San Francisco/OU=admin/CN=Admin@abhi.example1-network.com::/C=US/ST=California/L=San Francisco/O=abhi.example1-network.com/CN=ca.abhi.example1-network.com","createdAt":"2021-02-04T09:03:54.277Z","updatedAt":"2021-02-04T09:03:54.277Z"}
