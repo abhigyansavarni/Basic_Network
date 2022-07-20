@@ -8,6 +8,8 @@ cryptogen generate --config=./crypto-config.yaml
 echo "crypto materials created !!!!!!!"
 
 echo "##################################"
+export CA1_PRIVATE_KEY=$(cd crypto-config/peerOrganizations/abhi.example1-network.com/ca && ls *_sk)
+export CA2_PRIVATE_KEY=$(cd crypto-config/peerOrganizations/sava.example1-network.com/ca && ls *_sk)
 ##----------------------------------------
 ###### Channel Artifacts #####
 ##----------------------------------------
